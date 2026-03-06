@@ -1,0 +1,63 @@
+/* ===== STYLE GENERAL ===== */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460, #6c63ff);
+  text-align: center;
+  padding: 50px;
+  min-height: 100vh;
+}
+
+/* ===== TITRE ===== */
+h1 {
+  color: white;
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+
+/* ===== BOITE DU JEU ===== */
+#jeu {
+  background-color: white;
+  border: 3px solid #16213e;
+  padding: 40px;
+  width: 420px;
+  margin: 0 auto;
+  box-shadow: 6px 6px 0px #16213e;
+}
+
+/* ===== BOUTONS CHOIX ===== */
+button {
+  background-color: #16213e;
+  color: white;
+  border: none;
+  padding: 12px 22px;
+  font-size: 16px;
+  margin: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+button:hover {
+  background-color: #16213e;
+}
+
+/* ===== TEXTES ===== */
+#choix-ordi {
+  font-size: 18px;
+  color: #333333;
+  margin-top: 25px;
+}
+
+#resultat {
+  font-size: 24px;
+  font-weight: bold;
+  color: #16213e;
+  margin-top: 10px;
+}
+
+#score {
+  font-size: 15px;
+  color: #777777;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Pierre Feuille Ciseaux</title>
+  <link rel="stylesheet" href="style-jeu.css">
+  <script src="jeu.java"></script>
+</head>
+<body>
+
+  <h1>Pierre Feuille Ciseaux </h1>
+
+  <div id="jeu">
+
+    <!-- Les boutons de choix -->
+    <button onclick="jouer('pierre')">🪨 Pierre</button>
+    <button onclick="jouer('feuille')">📄 Feuille</button>
+    <button onclick="jouer('ciseaux')">✂️ Ciseaux</button>
+
+    <!-- Zone ou on affiche ce que l'ordi a choisi -->
+    <p id="choix-ordi"></p>
+
+    <!-- Zone ou on affiche qui a gagne -->
+    <p id="resultat"></p>
+
+    <!-- Zone ou on affiche le score -->
+    <p id="score">Score — Toi : 0 | Ordi : 0</p>
+
+    <!-- Bouton pour remettre le score a zero -->
+    <button onclick="reinitialiser()">🔄 Rejouer</button>
+
+  </div>
+
+</body>
+</html>
